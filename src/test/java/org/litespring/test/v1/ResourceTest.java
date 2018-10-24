@@ -17,11 +17,11 @@ public class ResourceTest {
             Assert.assertNotNull(is);
         }
     }
-    @Test
-    public void testFileSystemResource() throws Exception {
-        Resource resource = new FileSystemResource("F:\\doc\\litespring\\src\\test\\resources\\petstore-v1.xml");
-        try(InputStream is = resource.getInputStream()) {
-            Assert.assertNotNull(is);
-        }
-    }
+//    @Test
+//    public void testFileSystemResource() throws Exception {
+//        Resource resource = new FileSystemResource("F:\\doc\\litespring\\src\\test\\resources\\petstore-v1.xml");
+//        try(InputStream is = resource.getInputStream()) {
+//            Assert.assertNotNull(is);
+//        }
+//    }
 }
